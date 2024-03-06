@@ -1,0 +1,50 @@
+
+:root {
+    --purple: #A970FF;
+    --dark-purple: #954ffd;
+}
+
+body {
+    /* background-image: url(../images/loginDark.svg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-purple {
+    background-color: var(--purple);
+}
+
+.rounded-bottom {
+    border-radius: 0 0 4px 4px;
+}
+
+.btn-purple {
+    color: white;
+    background-color: var(--purple);
+}
+.btn-purple:hover {
+    color: white;
+    background-color: var(--dark-purple);
+}
+
+.link-purple {
+    color: var(--purple);
+}
+
+i {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.icon {
+    height: 50px;
+}
+
+.form-control:focus {
+    border-color: var(--purple) !important;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+}
